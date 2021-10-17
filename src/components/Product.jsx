@@ -1,4 +1,8 @@
 import {
+  Link
+ } from "react-router-dom";
+
+import {
     FavoriteBorderOutlined,
     SearchOutlined,
     ShoppingCartOutlined,
@@ -74,9 +78,11 @@ import {
           <Icon>
             <ShoppingCartOutlined />
           </Icon>
+          <Link to="/product/:id" style={{ textDecoration: 'none',color: 'black' }}>
           <Icon>
             <SearchOutlined />
           </Icon>
+          </Link>
           <Icon>
             <FavoriteBorderOutlined />
           </Icon>

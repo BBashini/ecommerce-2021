@@ -1,3 +1,7 @@
+import {
+  Link
+} from "react-router-dom";
+
 import { Badge } from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
@@ -78,15 +82,23 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
+        <Link to="/" style={{ textDecoration: 'none',color: 'black' }} >
           <Logo>LAMA.</Logo>
+        </Link>
         </Center>
         <Right>
+        <Link to="/register"  style={{ textDecoration: 'none',color: 'black' }}>
           <MenuItem>REGISTER</MenuItem>
+        </Link>
+        <Link to="/login"  style={{ textDecoration: 'none',color: 'black' }}>
           <MenuItem>SIGN IN</MenuItem>
+        </Link>
           <MenuItem>
-            <Badge badgeContent={4} color="primary">
+          <Link to="/cart" style={{ textDecoration: 'none',color: 'black' }}>
+            <Badge badgeContent={2} color="primary">
               <ShoppingCartOutlined />
             </Badge>
+            </Link>
           </MenuItem>
         </Right>
       </Wrapper>
