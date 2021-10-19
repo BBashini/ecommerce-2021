@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/ecommerce-2021/static/js/main.c2a20841.chunk.js",
-    "main.js.map": "/ecommerce-2021/static/js/main.c2a20841.chunk.js.map",
+    "main.js": "/ecommerce-2021/static/js/main.c894d86f.chunk.js",
+    "main.js.map": "/ecommerce-2021/static/js/main.c894d86f.chunk.js.map",
     "runtime-main.js": "/ecommerce-2021/static/js/runtime-main.cf2036d6.js",
     "runtime-main.js.map": "/ecommerce-2021/static/js/runtime-main.cf2036d6.js.map",
     "static/js/2.25b1a759.chunk.js": "/ecommerce-2021/static/js/2.25b1a759.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.cf2036d6.js",
     "static/js/2.25b1a759.chunk.js",
-    "static/js/main.c2a20841.chunk.js"
+    "static/js/main.c894d86f.chunk.js"
   ]
 }
