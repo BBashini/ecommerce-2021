@@ -83,7 +83,7 @@ const Navbar = () => {
         </Left>
         <Center>
         <Link to="/" style={{ textDecoration: 'none',color: 'black' }} >
-          <Logo>LAMA.</Logo>
+          <Logo>Grandma's Box.</Logo>
         </Link>
         </Center>
         <Right>
