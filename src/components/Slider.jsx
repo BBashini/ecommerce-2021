@@ -55,6 +55,7 @@ const Slide = styled.div`
 const ImgContainer = styled.div`
   height: 100%;
   flex: 1;
+  text-align:right;
 `;
 
 const Image = styled.img`
@@ -65,14 +66,17 @@ const Image = styled.img`
 const InfoContainer = styled.div`
   flex: 1;
   padding: 50px;
+  text-align:left;
+  
 `;
 
 const Title = styled.h1`
-  font-size: 70px;
+  font-size: 55px;
+  margin: 0px 250px 0px 0px;
 `;
 
 const Desc = styled.p`
-  margin: 50px 0px;
+  margin: 50px 200px 50px 0px;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 3px;
@@ -81,7 +85,8 @@ const Desc = styled.p`
 const Button = styled.button`
   padding: 10px;
   font-size: 20px;
-  background-color: transparent;
+  background-color: teal;
+  color: white;
   cursor: pointer;
 `;
 
@@ -110,7 +115,7 @@ const Slider = () => {
               <Title>{item.title}</Title>
               <Desc>{item.desc}</Desc>
               <Link to="/products/:category">
-              <Button>SHOW NOW</Button>
+              <Button>SHOP NOW</Button>
               </Link>
             </InfoContainer>
           </Slide>

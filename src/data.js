@@ -2,23 +2,23 @@ export const sliderItems = [
     {
       id: 1,
       img: "https://i.ibb.co/6b9WLb3/witch1.png",
-      title: "SUMMER SALE",
+      title: "HALLOWEEN SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "ffffff",
     },
     {
       id: 2,
       img: "https://i.ibb.co/8msBd6v/brideandgroom-optimized.png",
-      title: "AUTUMN COLLECTION",
+      title: "NEW COLLECTION",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fcf1ed",
+      bg: "ffffff",
     },
     {
       id: 3,
       img: "https://i.ibb.co/RYRcLhX/witch-And-Bride.png",
-      title: "LOUNGEWEAR LOVE",
+      title: "OCTOBER LOVE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
-      bg: "fbf0f4",
+      bg: "ffffff",
     },
   ];
 
@@ -26,17 +26,20 @@ export const sliderItems = [
     {
       id: 1,
       img: "https://i.ibb.co/HKgNVp5/pexels-mikhail-nilov-7706779.jpg",
-      title: "SHIRT STYLE!",
+      title1: "WOMEN'S",
+      title2: "COSTUMES",
     },
     {
       id: 2,
       img: "https://i.ibb.co/tY6V6dY/pexels-jj-jordan-3145477.jpg",
-      title: "LOUNGEWEAR LOVE",
+      title1: "MEN'S",
+      title2: "COSTUMES",
     },
     {
       id: 3,
       img: "https://i.ibb.co/VNVb4YL/pexels-charles-parker-5859788.jpg",
-      title: "LIGHT JACKETS",
+      title1: "KIDS'S",
+      title2: "COSTUMES",
     },
   ];
 

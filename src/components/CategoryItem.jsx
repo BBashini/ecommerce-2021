@@ -33,7 +33,7 @@ const Info = styled.div`
 
 const Title = styled.h1`
     color:white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 `;
 
 const Button = styled.button`
@@ -50,7 +50,8 @@ const CategoryItem = ({ item }) => {
     <Container>
       <Image src={item.img} />
       <Info>
-        <Title>{item.title}</Title>
+        <Title>{item.title1}</Title>
+        <Title>{item.title2}</Title>
         <Link to="/products/:category">
         <Button>SHOP NOW</Button>
         </Link>
