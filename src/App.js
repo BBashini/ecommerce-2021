@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -14,7 +14,7 @@ import Cart from "./pages/Cart";
 
 const App = () => {
   return (
-  <Router>
+  <Router basename="/ecommerce-2021">
   <Switch>
     <Route exact path="/">
       <Home />
